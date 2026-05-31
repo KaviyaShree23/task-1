@@ -11,7 +11,7 @@ import pandas as pd
 from google.colab import files
 
 # Load dataset
-df = pd.read_csv("/content/archive.zip")
+df = pd.read_csv("netflix_data")
 
 # 1. Check missing values
 print("Missing Values:")
